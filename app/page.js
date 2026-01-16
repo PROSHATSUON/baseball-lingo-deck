@@ -1,5 +1,3 @@
-import ClientPage from './ClientPage';
-
 export default async function Home() {
   // 環境変数のチェック
   if (!process.env.NOTION_API_KEY || !process.env.NOTION_DB_ID) {
